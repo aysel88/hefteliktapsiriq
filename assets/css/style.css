@@ -1,0 +1,406 @@
+@import url(../bootstrap/bootstrap.css);
+body {
+  font-family: tahoma; }
+
+/*home sehifesi*/
+#imag {
+  margin-top: 85px;
+  background-color: #8D8D8D;
+  color: white;
+  text-align: center;
+  height: 750px;
+  padding-top: 340px; }
+  #imag p:first-child {
+    font-size: 48px;
+    font-weight: 700; }
+  #imag .lor {
+    font-size: 14px;
+    font-weight: bolder; }
+  #imag .center {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 260px; }
+    #imag .center ul {
+      list-style-type: none; }
+      #imag .center ul li {
+        float: left; }
+        #imag .center ul li .daire {
+          border-radius: 50%;
+          border: 2px solid white;
+          width: 20px;
+          height: 20px;
+          margin: 2px; }
+
+#startup {
+  margin-top: 100px; }
+  #startup h3 {
+    font-size: 30px; }
+  #startup p {
+    font-size: 14px; }
+  #startup .dram {
+    margin: 40px 0; }
+  #startup .img1 {
+    line-height: 300px;
+    width: 585px;
+    background-color: #8D8D8D;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center; }
+  #startup .h {
+    float: right;
+    width: 360px;
+    margin-bottom: 60px; }
+  #startup .boz {
+    background-color: #E5EEF0;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 10px;
+    float: left; }
+  #startup .boz:hover {
+    background-color: #F79B38; }
+  #startup .servis {
+    margin: 0 auto;
+    width: 200px; }
+    #startup .servis .btn {
+      clear: both;
+      width: 175px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #29C2E1; }
+
+#clients {
+  background-color: #E5EEF0; }
+
+#clients .col-md-7 p:first-child {
+  font-size: 30px;
+  margin-top: 100px; }
+#clients .col-md-7 p:nth-child(2) {
+  font-size: 18px; }
+#clients .col-md-7 img {
+  float: left;
+  margin-top: 60px; }
+#clients .col-md-7 p:nth-child(4) {
+  margin: 60px 0 40px 40px;
+  float: left;
+  width: 500; }
+#clients .col-md-7 p:nth-child(5) {
+  clear: both;
+  margin-left: 90px; }
+#clients .col-md-7 p:nth-child(6) {
+  margin-left: 90px;
+  color: #F79B38; }
+
+#clients .col-md-5 {
+  text-align: center; }
+  #clients .col-md-5 .big {
+    margin: 200px auto 20px auto;
+    width: 450px;
+    overflow: auto;
+    text-align: center; }
+    #clients .col-md-5 .big div {
+      float: left;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background-color: #8D8D8D;
+      margin: 0 9px; }
+    #clients .col-md-5 .big div:hover {
+      background: #F79B38; }
+  #clients .col-md-5 .small {
+    clear: both;
+    margin: 20px auto 105px auto;
+    width: 100px;
+    overflow: auto;
+    text-align: center; }
+    #clients .col-md-5 .small div {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #8D8D8D;
+      float: left;
+      margin: 0 5px; }
+    #clients .col-md-5 .small div:hover {
+      background-color: #29C2E1; }
+
+#pricing {
+  --margin-top: 100px; }
+  #pricing h3 {
+    margin: 100px 0 15px 15px;
+    font-weight: bolder; }
+  #pricing h4 {
+    margin: 0 0 45px 15px; }
+  #pricing .dordluk {
+    --width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    #pricing .dordluk div {
+      height: 425px;
+      width: 260px;
+      border: 1px solid #8D8D8D;
+      float: left;
+      margin: 15px; }
+      #pricing .dordluk div p:nth-child(1) {
+        line-height: 68px;
+        border-bottom: 1px solid #AAB7BD;
+        font-size: 30px;
+        font-weight: bolder; }
+      #pricing .dordluk div p:nth-child(2) {
+        line-height: 60px;
+        border-bottom: 1px solid #AAB7BD;
+        font-size: 18px;
+        font-weight: bold;
+        color: #8D8D8D; }
+        #pricing .dordluk div p:nth-child(2) span {
+          color: #F79B38; }
+      #pricing .dordluk div p:nth-child(3) {
+        margin-top: 40px;
+        color: #8D8D8D; }
+      #pricing .dordluk div p:nth-child(4) {
+        line-height: 30px;
+        color: #8D8D8D; }
+      #pricing .dordluk div p:nth-child(5) {
+        line-height: 30px;
+        color: #8D8D8D; }
+      #pricing .dordluk div .buton {
+        clear: both;
+        width: 130px;
+        height: 40px;
+        background-color: #29C2E1;
+        border-radius: 20px;
+        color: white;
+        margin: 0 60px;
+        position: relative;
+        bottom: -40px; }
+
+/*about us sehifesi */
+#mail {
+  background: #e5eef0;
+  font-size: 13px;
+  color: #93a1a7; }
+  #mail p {
+    line-height: 48px; }
+  #mail .right {
+    float: right; }
+    #mail .right li {
+      list-style-type: none;
+      float: left;
+      padding: 0 32px;
+      line-height: 48px; }
+
+.menu {
+  --height: 76px;
+  float: right; }
+  .menu li {
+    list-style-type: none;
+    float: left;
+    line-height: 76px; }
+    .menu li a {
+      text-decoration: none;
+      color: #93a1a7;
+      line-height: 48px;
+      padding: 5px 25px; }
+      .menu li a:hover {
+        border-radius: 20px;
+        color: white;
+        background-color: #29C2E1; }
+
+#navbar h1 {
+  line-height: 76px; }
+
+#image {
+  background-color: #8D8D8D;
+  height: 310px;
+  color: white;
+  text-align: center; }
+  #image h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 700; }
+  #image p {
+    font-size: 18px;
+    font-weight: bolder; }
+  #image .text {
+    margin: 90px 0; }
+
+#dream h1, h4 {
+  margin-left: 15px; }
+
+#dream h1 {
+  margin-top: 100px; }
+
+#number .col-md-3 {
+  margin-top: 75px;
+  border-top: 1px solid #AAB7BD; }
+  #number .col-md-3 .image, #number .col-md-3 .paraqraf {
+    float: left;
+    margin: 75px 15px 75px 15px; }
+
+#team {
+  height: 675px;
+  background-color: #E5EFF1; }
+  #team .row .teem {
+    margin-left: 30px; }
+    #team .row .teem h1 {
+      margin-top: 100px;
+      font-weight: 700; }
+  #team .row .box {
+    width: 265px;
+    height: 400px;
+    float: left;
+    margin: 15px; }
+    #team .row .box .image {
+      background-color: #8D8D8D;
+      text-align: center;
+      line-height: 270px;
+      color: white;
+      font-weight: bolder;
+      font-size: 40px; }
+    #team .row .box .paraqraf {
+      background-color: white;
+      height: 130px;
+      padding: 30px;
+      /*	p:first-child{
+      	margin-top:30px;
+      	}*/ }
+      #team .row .box .paraqraf p:nth-child(2) {
+        color: #F79B38; }
+
+#features {
+  position: relative; }
+  #features .some {
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px; }
+    #features .some h2 {
+      font-weight: 700; }
+    #features .some p {
+      font-weight: bold; }
+  #features .col-md-4 {
+    padding-bottom: 32px; }
+  #features .buton {
+    background-color: #29C2E1;
+    color: white;
+    height: 40px;
+    width: 165px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 20px; }
+    #features .buton p {
+      padding: 10px 0; }
+  #features .ucbucaq {
+    position: absolute;
+    bottom: 0;
+    right: 100px; }
+
+#free {
+  margin-bottom: 100px; }
+  #free .one {
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid #AAB7BD; }
+  #free .row {
+    text-align: center; }
+  #free .mavi, #free .sari {
+    border-radius: 20px;
+    width: 140px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-weight: bold; }
+  #free .mavi {
+    background-color: #29C2E1; }
+  #free .sari {
+    background-color: #F79B38; }
+
+#contact {
+  padding: 80px 0;
+  --background: url("../images/sol.png") left bottom no-repeat;
+  /*	img{
+  	position: relative;
+  	top: 200px;
+  }*/ }
+  #contact .container {
+    --position: relative;
+    padding-bottom: 100px; }
+  #contact ul {
+    list-style-type: none;
+    color: #8D8D8D; }
+    #contact ul li {
+      line-height: 40px; }
+    #contact ul span {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px; }
+  #contact .top {
+    margin-top: 40px; }
+  #contact .inp input {
+    height: 45px;
+    width: 220px;
+    float: left; }
+  #contact .search {
+    width: 45px;
+    height: 45px;
+    background-color: #29C2E1;
+    color: white;
+    float: left; }
+  #contact .abs img {
+    width: 200px;
+    position: relative;
+    bottom: 0; }
+
+/*news sehifesi*/
+#news {
+  --border-bottom: 1px solid #AAB7BD;
+  margin-top: 90px; }
+  #news .basliq {
+    margin-left: 45px; }
+  #news .middle {
+    width: 98%;
+    margin: 0 auto;
+    overflow: auto;
+    --margin-bottom: 100px; }
+    #news .middle .one div, #news .middle .two div, #news .middle .three div, #news .middle .four div {
+      height: 380px;
+      width: 340px;
+      float: left;
+      margin: 0 15px;
+      padding: 40px;
+      text-align: center;
+      position: relative; }
+      #news .middle .one div button, #news .middle .two div button, #news .middle .three div button, #news .middle .four div button {
+        height: 40px;
+        width: 140px;
+        color: white;
+        background-color: #29C2E1;
+        line-height: 40px;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 30px;
+        left: 100px; }
+    #news .middle .one div:nth-child(odd), #news .middle .three div:nth-child(odd) {
+      background-color: #8D8D8D;
+      color: white;
+      padding-top: 170px;
+      font-size: 30px;
+      font-weight: bolder; }
+    #news .middle .one div:nth-child(even), #news .middle .three div:nth-child(even) {
+      background-color: #E5EEF0; }
+    #news .middle .two div:nth-child(even), #news .middle .four div:nth-child(even) {
+      background-color: #8D8D8D;
+      color: white;
+      padding-top: 170px;
+      font-size: 30px;
+      font-weight: bolder; }
+    #news .middle .two div:nth-child(odd), #news .middle .four div:nth-child(odd) {
+      background-color: #E5EEF0; }
+
+/*portfolio sehifesi*/
+#portfolio .one div, #portfolio .two div, #portfolio threr div, #portfolio .four div {
+  width: 260px; }
+
+/*# sourceMappingURL=style.css.map */

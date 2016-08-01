@@ -1,0 +1,58 @@
+#news{
+	--border-bottom: 1px solid $aciqboz;
+	margin-top:90px;
+	
+	.basliq{
+		margin-left:45px;
+	}
+	.middle{
+		width:98%;
+		margin:0 auto;
+		overflow: auto;
+		--margin-bottom: 100px;
+	.one div, .two div, .three div, .four div{
+
+			height: 380px;
+			width: 340px;
+			float:left;
+			margin:0 15px;
+			padding: 40px;
+			text-align: center;
+			position: relative;
+
+			button{
+
+				height: 40px;
+				width: 140px;
+				color:white;
+				background-color: $goy;
+				line-height: 40px;
+				border-radius: 20px;
+				position: absolute;
+				bottom:30px;
+				left:100px;
+
+			}
+		}
+	.one div:nth-child(odd),.three div:nth-child(odd){
+			background-color: $tundboz;
+			color:white;
+			padding-top: 170px;
+			font-size: 30px;
+			font-weight: bolder;
+		}
+	.one div:nth-child(even),.three div:nth-child(even){
+			background-color: #E5EEF0;
+		}
+	.two div:nth-child(even),.four div:nth-child(even){
+			background-color: $tundboz;
+			color:white;
+			padding-top: 170px;
+			font-size: 30px;
+			font-weight: bolder;
+		}
+	.two div:nth-child(odd),.four div:nth-child(odd){
+			background-color: #E5EEF0;
+		}
+	}
+}

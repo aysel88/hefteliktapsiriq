@@ -1,0 +1,49 @@
+#startup{
+	margin-top: 100px;
+	h3{
+		font-size: 30px;	
+	}
+	p{
+		font-size: 14px;
+	}
+	.dram{
+		margin:40px 0;
+	}
+	.img1{
+		line-height: 300px;
+		width: 585px;
+		background-color: #8D8D8D;
+		color: white;
+		font-weight: bolder;
+		font-size: 30px;
+		text-align: center;
+	}
+	.h{
+		float: right;
+		width: 360px;
+		margin-bottom: 60px;
+	}
+	.boz{
+			background-color: #E5EEF0;
+			width: 65px;
+			height: 65px;
+			text-align: center;
+			padding: 10px;
+			float: left;
+		}
+		.boz:hover{
+			background-color: $narinci;
+		}
+	.servis{
+		margin: 0 auto;
+		width: 200px;
+		.btn{
+			clear: both;
+			width:175px;
+			height: 40px;
+			border-radius: 20px;
+			background-color: $goy;
+			
+		}
+	}
+	}
